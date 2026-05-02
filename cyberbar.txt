@@ -1,0 +1,1 @@
+Código SIN Memoria (Ida y Vuelta)Concepto: Es el más seguro mecánicamente. Por cada ingrediente, el motor avanza desde el Jarabe hasta la bebida, sirve y regresa inmediatamente al punto inicial.  Ventaja: Si el motor pierde un paso, el error no se acumula porque siempre "resetea" su posición en el Jarabe.  Desventaja: Es más lento porque hace más recorridos de los necesarios.
