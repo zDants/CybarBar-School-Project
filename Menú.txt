@@ -1,0 +1,34 @@
+Menú
+
+no se mueve estado inicial solo tendría que subir Jarabe 
+533 pasos para limón
+1066 Jugo de naranja 
+1600 Jugo de piña  
+
+A Caribean sun:
+1 shot jugo de piña
+1 shot jugo de naranja
+1 shot jugo de limón
+1 shot de jarabe 
+
+B Pineaple Paradise:
+2 shots jugo de piña
+2 shot jugo de limón
+
+C Refresing Citrus:
+2 shots jugo de naranja
+1 shot jugo de limón
+1 shot jarabe simple
+
+D Fizz tropical:
+2 shots jugo de limón
+2 shots jarabe
+
+config
+9 10 11 12
+5 6 7 8
+0 1
+
+texto de instrucciones entonces
+
+seria asi esta en estado inicial es decir en el jarabe, presiono desde la app la B que seria pineaple Paradise se le manda al bluetoh el bluetoh al Arduino y el Arduino interpreta que la B es 1600 pasos sube 1 sola vez para un shot de piña entonces sigue 1 shot de naranja entonces seria -1066 pasos después 1 de limon -533 pasos y por ultimo -533 pasos jarabe y asi con las otras 4 bro hazme ese código y hazlo simple y ten en cuenta el código del hc-05 ahí mismo asi recibe esas 4 señalas y la interpreta como te dije A B C D 
