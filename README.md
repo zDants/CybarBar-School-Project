@@ -5,15 +5,15 @@ CyberBar es un sistema automatizado diseñado para la preparación de cócteles 
  🍸 CyberBar - Bartender Automático 
 Proyecto de 5to Electrónica - Control de Mezclas vía Bluetooth
 
-CyberBar es un sistema automatizado diseñado para la preparación de cócteles y shots utilizando **Arduino Uno**, motores paso a paso y conectividad Bluetooth[cite: 1]. El sistema permite seleccionar recetas desde una aplicación móvil y ejecuta movimientos precisos de desplazamiento y elevación para servir los ingredientes.
+CyberBar es un sistema automatizado diseñado para la preparación de cócteles y shots utilizando **Arduino Uno**, motores paso a paso y conectividad Bluetooth. El sistema permite seleccionar recetas desde una aplicación móvil y ejecuta movimientos precisos de desplazamiento y elevación para servir los ingredientes.
 
  🚀 Características Técnicas
-Microcontrolador:** Arduino Uno R3[cite: 1].
+Microcontrolador:** Arduino Uno R3.
 Comunicación:** Módulo Bluetooth HC-05 (Configurado a 38400 baudios).
  Motores: 
-     Motor Nema 17 / Paso a paso para desplazamiento horizontal[cite: 1].
-     2 Motores paso a paso en paralelo para el sistema de elevación (servido)[cite: 1].
-Drivers: L298N alimentados con fuente externa de 12V[cite: 1].
+     Motor Nema 17 / Paso a paso para desplazamiento horizontal.
+     2 Motores paso a paso en paralelo para el sistema de elevación (servido)[.
+Drivers: L298N alimentados con fuente externa de 12V.
 Estructura de Control: Lógica de "Ida y Vuelta" para asegurar precisión en cada shot.
 
  📍 Mapa de Posiciones (Pasos)
@@ -35,6 +35,6 @@ El sistema interpreta caracteres enviados vía Serial (Bluetooth) para ejecutar 
 
  🛠️ Instalación y Uso
 1. Sube el código `.ino` al Arduino (Recuerda desconectar el pin RX antes de subir).
-2. Conecta la fuente de 12V y asegúrate de compartir el GND con el Arduino[cite: 1].
-3. Vincula tu smartphone al módulo CyberBar5ToElca[cite: 1].
-4. Utiliza una App de Terminal Serial o una App personalizada para enviar las letras A, B, C o D[cite: 1].
+2. Conecta la fuente de 12V y asegúrate de compartir el GND con el Arduino.
+3. Vincula tu smartphone al módulo.
+4. Utiliza una App de Terminal Serial o una App personalizada para enviar las letras A, B, C o D.
